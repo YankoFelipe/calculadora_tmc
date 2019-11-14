@@ -9,7 +9,7 @@ El usuario de la aplicación debe poder especificar el monto en UF, el plazo en 
 Según esos parámetros la aplicación debe entregar la TMC correspondiente al día consultado.
 
 ## Dependencies
-TBA
+[requests](https://realpython.com/python-requests/)
 
 ## Assumptions about SBIF's API
 
