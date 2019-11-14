@@ -2,15 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Calculadora de TMC</title>
 </head>
 <body>
-
+    <br>
+    Calculadora de Tasa Máxima Convencional. By Yanko Arévalo
+    <br>
+    <br>
     <form action="/tmc/" method="get">
     {% csrf_token %}
     {{ form }}
     <input type="submit" value="Submit" />
     </form>
-{{ tmc }}
+    <br>
+    La tasa máxima convencional es {{ tmc }}
 </body>
 </html>

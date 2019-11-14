@@ -30,7 +30,4 @@ def get_tmc(tmc_form):
                                         tmc_form.cleaned_data['time_to_maturity'],
                                         tmc_form.cleaned_data['query_date'],
                                         tmc_form.cleaned_data['credit_type'])
-    return body_response_filtered
-    # html = "<html><body>It is now %s.</body></html>" % r.json()['TMCs']
-    # html = "<html><body>It is now %s.</body></html>" % body_response_filtered_by_amount_in_uf
-    # return HttpResponse(html)
+    return float(body_response_filtered[0]['Valor']) * 0.01
