@@ -25,7 +25,9 @@ SECRET_KEY = 'v3j!3+n61g7tsj(dsf_d=2p72(s)n_03f+1h$(dwhhfj4dzk(c'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'frozen-crag-19534.herokuapp.com'
+                 ]
 
 SETTINGS_PATH = os.path.normpath(os.path.dirname(__file__))
 
