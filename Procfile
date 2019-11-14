@@ -1,1 +1,1 @@
-web: gunicorn app:app
+web: gunicorn calculadora_tmc.wsgi
